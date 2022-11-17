@@ -10,6 +10,9 @@
 
 // fs.appendFileSync("notes.txt", `I'm a front-end developer.`);
 
-let utils = require("./utils");
-const name = "Andrew";
-console.log(name);
+// const name = require("./utils");
+// console.log(name);
+
+const add = require("./utils");
+const sum = add(2, 3);
+console.log(sum);
