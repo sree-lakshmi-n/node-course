@@ -30,3 +30,9 @@
 
 const notes = require("./notes");
 console.log(notes());
+
+const validator = require("validator");
+console.log(validator.isEmail("abc@example.com"));
+console.log(validator.isEmail("example.com"));
+console.log(validator.isURL("https://neil.io"));
+console.log(validator.isURL("https:/neil.io"));
