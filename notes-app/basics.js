@@ -1,6 +1,6 @@
-// const fs = require("fs");
-// const { text } = require("stream/consumers");
-// fs.writeFileSync("notes.txt", "My name is Sree Lakshmi. ");
+const fs = require("fs");
+const { text } = require("stream/consumers");
+fs.writeFileSync("notes.txt", "My name is Sree Lakshmi. ");
 
 //////////////////////////////
 // // Challenge: Append a message to notes.txt
@@ -10,14 +10,14 @@
 // // 3. Check your work by opening the file and viewing the appended text.
 //////////////////////////////
 
-// fs.appendFileSync("notes.txt", `I'm a front-end developer.`);
+fs.appendFileSync("notes.txt", `I'm a front-end developer.`);
 
-// const name = require("./utils");
-// console.log(name);
+const name = require("./utils");
+console.log(name);
 
-// const add = require("./utils");
-// const sum = add(2, 3);
-// console.log(sum);
+const add = require("./utils");
+const sum = add(2, 3);
+console.log(sum);
 
 //////////////////////////////
 // Challenge: Define and use a function in a new file
@@ -28,14 +28,14 @@
 // 4.From app.js, load in and call the function printing message to console.
 //////////////////////////////
 
-// const notes = require("./notes");
-// console.log(notes());
+const notes = require("./notes");
+console.log(notes());
 
-// const validator = require("validator");
-// console.log(validator.isEmail("abc@example.com"));
-// console.log(validator.isEmail("example.com"));
-// console.log(validator.isURL("https://neil.io"));
-// console.log(validator.isURL("https:/neil.io"));
+const validator = require("validator");
+console.log(validator.isEmail("abc@example.com"));
+console.log(validator.isEmail("example.com"));
+console.log(validator.isURL("https://neil.io"));
+console.log(validator.isURL("https:/neil.io"));
 
 //////////////////////////////
 // Challenge: Use chalk library in your project
